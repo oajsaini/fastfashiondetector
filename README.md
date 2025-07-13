@@ -49,6 +49,15 @@ The script generates two types of output:
    - List of brand names
    - Timestamp
 
+## Important Notes
+
+⚠️ **Disclaimer**: Web scraping may be against Amazon's Terms of Service. Use this script responsibly and at your own risk.
+
+- The script includes delays and realistic headers to minimize detection
+- Amazon frequently changes their HTML structure, so the script may need updates
+- Consider using Amazon's official API for production use
+- The script is for educational purposes only
+
 ## Troubleshooting
 
 If the script doesn't find brands:

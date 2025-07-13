@@ -3,20 +3,25 @@
 
 // Sustainability database based on your rankings
 const sustainabilityData = {
-  // Worst brands (red)
+  // Ultra Fast Fashion / Drop-Ship (worst)
   worst: [
-    'anrabess', 'aokosor', 'automet', 'chantomoo', 'chicgal', 'coofandy', 
-    'dokotoo', 'enunube', 'evaless', 'eymuse', 'fisoew', 'funtour', 
-    'gembera', 'kkj', 'lillusory', 'ofeefan', 'prettygarden', 'saloogoe', 
-    'sampeel', 'sialois', 'tanming', 'trendy queen', 'vertvie', 
-    'voch gala', 'wiholl', 'xieerduo', 'yocur', 'zeagoo'
+    'anrabess', 'aokosor', 'automet', 'chantomoo', 'chicgal', 'coofandy', 'dokotoo', 'enunube', 'evaless', 'eymuse', 'fisoew', 'funtour', 'gembera', 'kkj', 'lillusory', "linda's essentials", 'ofeefan', 'prettygarden', 'saloogoe', 'sampeel', 'sialois', 'tanming', 'trendy queen', 'vertvie', 'voch gala', 'wiholl', 'xieerduo', 'yocur', 'zeagoo', 'shein', 'romwe', 'zaful', 'prettylittlething', 'boohoo', 'missguided', 'fashion nova', 'zesica', 'astylish', 'kancystore', 'floerns', 'grace karin', 'ecowish', 'simplee', 'allegra k', 'cupshe', 'btfbm', 'kirundo', 'merokeety', 'vamjump', 'himosyber'
   ],
-  // Bad brands (orange/red)
-  bad: ["linda's essentials"],
-  // Slightly better brands (yellow)
-  better: ['gildan', 'hanes', 'gap', 'wrangler authentics'],
-  // Best brands (green)
-  best: ['columbia']
+
+  // Basic Fast Fashion / Questionable (bad)
+  bad: [
+    'forever 21', 'rue21', 'papaya clothing', 'charlotte russe', 'wet seal', 'aeropostale', 'urban coco', 'milumia', 'asvivid', 'exlura', 'hybrid & company', 'romacci', 'tobeinstyle', "joe’s usa", 'joe boxer', 'basic editions', 'wild fable', 'no boundaries'
+  ],
+
+  // Mass Market / Mainstream (better)
+  better: [
+    'gap', 'old navy', 'banana republic', 'athleta', "levi’s", 'wrangler', 'lee', 'hanes', 'gildan', 'fruit of the loom', 'champion', 'columbia', 'carhartt', 'dickies', 'russell athletic', 'nautica', 'izod', 'jockey', 'under armour', 'adidas', 'nike', 'reebok', 'skechers', 'converse', 'vans', 'the north face', 'timberland'
+  ],
+
+  // Better / Recognized Sustainable (best)
+  best: [
+    'patagonia', 'prana', 'tentree', 'pact', 'alternative apparel', 'outerknown', 'people tree', "levi’s wellthread", 'ecoalf', 'thought clothing', 'boody', 'quince', 'pact organic'
+  ]
 };
 
 // Function to get sustainability rating for a brand
