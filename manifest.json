@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Sustainability Highlighter",
+  "version": "1.0",
+  "description": "Highlights Amazon products based on brand sustainability ratings",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.amazon.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Sustainability Highlighter"
+  }
+} 
